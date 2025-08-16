@@ -19,17 +19,57 @@
     </script>
   </head>
   <body>
-    <!-- Header Section -->
-    <header>
-      <!-- navbar- container -->
-      <nav class="bg-blue-950 h-28 flex justify-center items-center">
-        <div class="container flex justify-between space-x-5 mx-auto">
-          <!-- left-container -->
-          <div class="flex space-x-4 items-center">
-            <div>
-              <img src="./assets/logo-3.png" alt="" />
-            </div>
-            <div class="flex text-white font-semibold list-none space-x-5">
+    <!-- navbar- container -->
+    <nav class="bg-blue-950 py-6 px-6">
+      <div class="container flex justify-between space-x-5 mx-auto">
+        <!-- left-container -->
+        <div class="flex space-x-10 items-center">
+          <div>
+            <img src="./assets/logo-3.png" alt="" />
+          </div>
+          <div
+            class="flex text-white font-semibold list-none space-x-5 hidden lg:flex"
+          >
+            <li>
+              <a class="hover:text-orange-600 duration-300" href="#">Home</a>
+            </li>
+            <li>
+              <a class="hover:text-orange-600 duration-300" href="#">About</a>
+            </li>
+            <li>
+              <a class="hover:text-orange-600 duration-300" href="#">Servie</a>
+            </li>
+            <li>
+              <a class="hover:text-orange-600 duration-300" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="hover:text-orange-600 duration-300" href="#">Contact</a>
+            </li>
+          </div>
+        </div>
+        <!-- right-container -->
+        <div class="space-x-5 hidden lg:flex">
+          <button
+            class="text-white font-bold hover:text-orange-600 duration-300"
+          >
+            Login
+          </button>
+          <button
+            class="text-white font-semibold px-8 py-4 bg-orange-600 hover:bg-transparent border-2 border-orange-600 duration-300 rounded-md"
+          >
+            Get Started
+          </button>
+        </div>
+        <div class="lg:hidden">
+          <img
+            class="w-8 h-8 hover:bg-slate-500"
+            src="./assets/more.png"
+            alt=""
+          />
+          <div class="lg:hidden hidden peer-checked:flex">
+            <div
+              class="hidden hover:flex text-white font-semibold list-none space-x-5 lg:flex"
+            >
               <li>
                 <a class="hover:text-orange-600 duration-300" href="#">Home</a>
               </li>
@@ -51,26 +91,45 @@
               </li>
             </div>
           </div>
-          <!-- right-container -->
-          <div class="space-x-5">
-            <button
-              class="text-white font-bold hover:text-orange-600 duration-300"
-            >
-              Login
-            </button>
-            <button
-              class="text-white font-semibold px-8 py-4 bg-orange-600 hover:bg-transparent border-2 border-orange-600 duration-300 rounded-md"
-            >
-              Get Started
-            </button>
-          </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <!-- header Section -->
+    <header class="bg-blue-900 text-center">
+      <div class="space-y-6 pt-24 flex flex-col justify-center items-center">
+        <h1 class="text-6xl font-bold 0">
+          Creative way to <br />
+          Showcase your <span class="text-orange-700">App</span>
+        </h1>
+        <p class="text-white opacity-60">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fuga
+          facere nulla fugit sit dolore.
+        </p>
+        <div>
+          <button
+            class="text-white font-semibold px-8 py-4 bg-orange-600 hover:bg-transparent border-2 border-orange-600 duration-300 rounded-md"
+          >
+            Get Quote
+          </button>
+          <button class="ml-4 text-white">
+            <img
+              class="inline mr-3"
+              src="./assets/play-button.png"
+              alt=""
+            />Play Video
+          </button>
+        </div>
+        <div class="">
+          <img
+            class="translate-y-48 h-80"
+            src="./assets/hero-thumb-4.png"
+            alt=""
+          />
+        </div>
+      </div>
     </header>
     <!-- Main Section -->
-    <main>
-      <h1>this is main section</h1>
-    </main>
+    <main></main>
 
     <!-- Footer Section  -->
     <footer>
